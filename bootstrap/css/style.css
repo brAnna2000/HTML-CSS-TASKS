@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #252324;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.network{
+    color: #c5c5c5;
+    display: flex;
+}
+div.nav{
+    margin-top: 20px;
+}
+.search{
+    width: 220px;
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+    width: 260px;
+    padding-right: 0;
+}
+.menu{
+    padding-left: 0;
+}
+.top{
+    text-align: center;
+}
+.active-top{
+    padding-left: 8px;
+    padding-right: 9px;
+    text-align: center;
+}
+.nav-item{
+    text-transform: uppercase;
+}
+.nav-link{
+    color: grey;
+    border-bottom: transparent solid 2px;
+    padding-bottom: 25px;
+}
+a.nav-link:hover{
+    color: rgb(96, 177, 253);
+    border-bottom: rgb(96, 177, 253) solid 2px;
+}
+div.carousel-caption{
+    bottom: 140px;
+}
+.carousel-caption>h5{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.carousel-caption>p{
+    width: 750px;
+    margin: 0 auto;
+}
+.main-h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #818181;
+    font-weight: 380;
+    width: 800px;
+    margin: 70px auto 25px auto;
+}
+.text{
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+    color: #818181;
+}
+.parts{
+    text-align: center;
+    color: #818181;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.parts>p,h3{
+    padding-top: 10px;
+}
+.parts>i{
+    align-self: flex-start;
+}
+.parts i:hover{
+    color: rgb(96, 177, 253);
+}
+.background{
+    background: #eeeeee;
+    padding: 50px 0;
+}
+.card-body{
+    background: #eeeeee;
+    color: #818181;
+}
+.footer-before{
+    line-height: 200px;
+}
+.back{
+    background: #4f4f4d;
+    color: #fdfdfd;
+    padding: 40px 0px 50px 0;
+}
+footer{
+    background: #292527;
+    color: white;
+    line-height: 100px;
+}
+.back-icons{
+    display: inline-block;
+    color: #00b9c3;
+}
+.h3-back{
+    padding-bottom: 20px;
+}
+.col-back p{
+    color: #c5c5c5;
+}
+.p-back{
+    display: inline-block;
+    color: #818181;
+}
+.back-info>i{
+    margin-right: 15px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color: #c5c5c5;
+}
