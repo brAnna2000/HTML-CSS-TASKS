@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1128px;
+    margin: 0 auto;
+}
+body{
+    color: white;
+    background: #1b1e22;
+    font-family: Montserrat;
+}
+header{
+   /* background:black url("../img/background.png") cover;    почему оно так не работает, а если расписать работает?*/
+    background-image: url("../img/background.png");
+    background-size: cover;
+}   
+.header-img{
+    margin-top: 29px;
+    margin-right: 33px;
+    margin-left: 115px;
+}
+.top>a{
+    text-decoration: none;
+    color: #ffffff;
+    padding-right: 21px;
+    font-style: 400;
+    font-size: 13px;
+}/*
+.radio{
+    display: ;
+}*/
+input[type="radio"]:checked{
+    color: pink;
+}
+.lang:checked{
+    color: rgba(196, 196, 196, 0.5);
+}
+.lang2{
+    margin-left: 21px;
+}
+.menu{
+    color: white;
+    list-style: none;
+    display: inline-block;
+    margin-left: 158px;
+}
+.menu li{
+    display: inline-block; 
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+.menu li:hover{
+    border: 1px solid #FFB800;
+    border-radius: 10px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    color: white;
+    font-size: 48px;
+    margin-top: 155px;
+    font-style: normal;
+    font-weight: 500;
+    width: 582px;
+    height: 105px;
+    font-family: Montserrat;
+}
+.p-header{
+    margin-top: 42px;
+    width: 474px;
+    height: 69px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.h2-header{
+    margin: 0 auto;
+    margin-top: 277px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    width: 352px;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 44px;
+}
+.one{
+    text-align: center;
+    width: 240px;
+    height: 168px;
+}
+.one p{
+    width: 240px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.us{
+    margin: 23px 0 17px 0;
+}
+.h2{
+    margin-top: 78px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    margin-bottom: 45px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1128px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.cards-parts{
+    width: 360px;
+    height: 432px;
+    background-image: url(../img/back.png);
+    margin-bottom: 24px;
+    position: relative;
+}
+.cards-parts h3{
+    font-size: 20px;
+    margin: 16px 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.cards-parts p{
+    margin: 0 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+.cards-parts{
+    -webkit-transition-property: background, height, width, color;
+	-o-transition-property: background, height, width, color;
+    transition-property: background, height, width, color;
+    
+    -webkit-transition-duration: 1s, 0.5s, 0.5s, 0.5s;
+	-o-transition-duration: 1s, 0.5s, 0.5s, 0.5s;
+    transition-duration: 1s, 0.5s, 0.5s, 0.5s;
+    
+    -webkit-transition-delay: 0.5s;
+	-o-transition-delay: 0.5s;
+	transition-delay: 0.5s;
+} 
+.cards-parts>img{
+    -webkit-transition-property: height, width;
+	-o-transition-property: height, width;
+    transition-property: height, width;
+    
+    -webkit-transition-duration: 1s, 1s;
+	-o-transition-duration:  1s, 1s;
+    transition-duration: 1s, 1s;
+    
+    -webkit-transition-delay: 1s;
+	-o-transition-delay: 1s;
+	transition-delay: 1s;
+}
+.cards-parts:hover {
+	background: white;
+    font-size: 25px;
+    color: black;
+    height: 456px;
+    width: 384px;
+    border-radius: 4px;
+}
+.cards-parts:hover .date{
+    color:white;
+} /*
+.cards-parts:hover img{
+    width: 384px;
+    height: 228px;
+    transition-duration: 1s;
+    transition-delay: 1s;
+}*/
+.absolute{
+    display: flex;
+    position: absolute;
+    top: 159px;
+    left: 0;
+}
+.absolute .price{
+    background-image: url(../img/orange.png);
+    height: 32px;
+    width: 78px;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 4px;
+    padding-left: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #1B1E22;
+}
+.absolute .date{
+    background-image: url(../img/gray.png);
+    height: 32px;
+    width: 170px;
+    margin: 0;
+    padding: 0;
+    padding-top: 6px;
+    padding-left: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+}
+.cards-more{
+    position: absolute;
+    bottom: 14px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+}
+.see-all{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 72px;
+    width: 216px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.see-all a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px #FFB800 solid;
+    border-radius: 4px;
+    padding: 10px 35px;
+}
+.mountain{
+    background-image: url("../img/mountain.png");
+    height: 263px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+.shadow{
+    width: 100%;
+    height: 263px;
+}
+.info{
+    display: inline-block;
+    text-align: center;
+}
+.info>span{
+    color: #FFB800;
+    font-size: 78px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 78px;
+}
+.info>p{
+    font-weight: 400;
+    font-size: 20px;
+}
+.experiment{
+    position: absolute;
+    width: 1128px;
+    top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.h2-blog{
+    margin: 0 auto;
+    text-align: center;
+    font-style: normal;
+    margin-top: 62px;
+    font-weight: 500;
+    font-size: 34px;
+}
+.blog{
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+.blog>h2{
+    text-align: center;
+    margin-bottom: 34px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+}
+.gray-block{
+    background:  #23282F;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 264px;
+    height: 480px;
+    position: relative;
+}
+.square{
+    background: url("../img/10places.png");
+    width: 552px;
+    height: 480px;
+    border-radius: 4px;
+    position: relative;
+}
+.places>h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    }
+.places>p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    padding-top: 28px;
+}
+.places{
+    position: absolute;
+    top: 51px;
+    left: 16px;
+    text-align: center;
+    padding: 0 15px;
+}
+.gray-block>div{
+    padding: 20px;
+}
+.gray-block h2{
+    padding-bottom: 14px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+.gray-block p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+.gray-block span{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.gray-info{
+    position: absolute;
+    bottom: 21px;
+}
+.span-date{
+    margin-right: 30px;
+}
+.comments{
+    margin-right: 17px;
+}
+.see-all-yellow{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 49px;
+    margin-bottom: 62px;
+    width: 216px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+.see-all-yellow a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px #FFB800 solid;
+    border-radius: 4px;
+    padding: 10px 35px;
+    background: #FFB800;
+}
+.review{
+    text-align: center;
+    margin-top: 62px;
+}
+.review>h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+}
+footer{
+    margin-top: 62px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+footer p{
+    font-size: 13px;
+    padding-right: 27px;
+    padding-bottom: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+}
+.orange{
+    color: #FFB800; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+}
+div>span{
+    text-align: right;
+}
+.facts{
+    display: inline-block;
+    vertical-align: top;
+}
+.footer p.orange{
+    vertical-align: top;
+}
+.icons img{
+    padding-right: 24px;
+    vertical-align: center;/*выровнять по центру*/
+}
+.gradient{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 2.5%, rgba(27, 30, 34, 0.4) 42.42%, #1B1E22 80.67%);
+}
+.bold{
+    font-size: 20px;
+    font-weight: 600;
+}
+form{
+    background: url(../img/forma1.png);
+    height: 440px;
+    width: 580px;
+    display: inline-block;
+    padding: 60px 70px 55px 70px;
+    margin-top: 83px;
+}
+.preview{
+    display: inline-block;
+    margin-left: 110px;
+}
+h2.forma{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+div.form{
+    margin: 11px 0;
+    text-align: center;
+}
+.form-label{
+    font-family: Montserrat;
+    padding: 9px 0 9px 12px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    color: white;
+}
+.option:hover{
+    background: pink;
+}
+.where, .type{
+    width: 360px;
+}
+div.where{
+    padding-left: 40px;
+    position: relative;
+}
+.ellipse{
+    position: absolute;
+    top: 8px;
+    right: -35px;
+}
+.when, .duration{
+    width: 168px;
+}
+div.when, div.duration{
+    display: inline-block;
+    text-align: center;
+}
+div.when{
+    margin-right: 20px;
+    margin-left: 40px;
+}
+::placeholder{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+}
+button{
+    width: 360px;
+    height: 36px;
+    margin: 0 auto;
+    margin-left: 40px;
+    margin-top: 21px;
+    background: #FFB800;
+    border-radius: 4px;
+    border-color: #FFB800;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    color: #333333;
+}
+.type{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+    background: transparent;
+}
+.forma-type{
+    position: relative;
+}
+.fa-angle-down {
+    position: absolute;
+    top: 15px;
+    right: 50px;
+    color: white;
+}
+select {
+    -webkit-appearance: none;
+}
