@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f5f6f9;
+}
+.container{
+    width:300px;
+    margin: 0 auto;
+}
+p{
+    margin: 0 auto;
+    width: 550px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.top{
+    margin: 50px auto;
+    margin-bottom: 10px;
+    width: 700px;
+}
+form{
+    text-align: center;
+    margin-top: 20px;
+}
+input[type="text"]{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding: 8px 8px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    width: 246px;
+}
+select[name="day"],select[name="month"],select[name="year"]{
+    padding: 8px 26px 8px 8px;
+    color: #646464;
+    -webkit-appearance: none;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+}
+.fa-date{
+    position: absolute;
+    top: 36px;
+    left: 76px;
+    color: #d4d6d9;
+}
+.fa-month{
+    position: absolute;
+    top: 36px;
+    left: 180px;
+    color: #d4d6d9;
+}
+.fa-year{
+    position: absolute;
+    top: 36px;
+    left: 256px;
+    color: #d4d6d9;
+}
+div.birthday{
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+label.birthday{
+    display: block;
+    text-align: left;
+    margin-left: 29px;
+    color: #646464;
+}
+select[name="month"]{
+    margin: 10px 5px;
+}
+button{
+    text-align: center;
+    margin: 20px auto;
+    width: 246px;
+    padding: 10px 0;
+    color: white;
+    font-weight: bold;
+}
+.or{
+    width: 40px;
+    color: #646464;
+    display: inline-block;
+    font-size: 15px;
+}
+.registration{
+    background: #50a442;
+    border: #50a442 1px solid;
+    border-radius: 3px;
+}
+.facebook{
+    background: #3351a2;
+    border: #3351a2 1px solid;
+    border-radius: 3px;
+}
+.button{
+    margin: 0 auto;
+    text-align: center;
+}
+hr{
+    display: inline-block;
+    width: 40px;
+    margin-bottom: 3px;
+    color: #d4d6d9;
+   /* border: solid; */
+}
+.design{
+    margin: 0 auto;
+    text-align: center;
+}
