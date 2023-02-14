@@ -14,7 +14,6 @@ body{
     font-family: Montserrat;
 }
 header{
-   /* background:black url("../img/background.png") cover;    почему оно так не работает, а если расписать работает?*/
     background-image: url("../img/background.png");
     background-size: cover;
 }   
@@ -170,6 +169,7 @@ h1{
     -webkit-transition-delay: 1s;
 	-o-transition-delay: 1s;
 	transition-delay: 1s;
+    width: 100%;
 }
 .cards-parts:hover {
 	background: white;
